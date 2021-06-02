@@ -1,4 +1,4 @@
-{% if nav_item.is_homepage %}
+{% if nav_item.is_homepage or nav_item.url == "index.html" %}
   {% if not page.ancestors | length and nav | selectattr("url", page.url) %}
     <li class="md-tabs__item md-tabs__item--active">
       <a href="{{ nav_item.url | url }}" title="{{ nav_item.title }}" class="md-tabs__link md-tabs__link--active nav-link-text">

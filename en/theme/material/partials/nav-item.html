@@ -15,8 +15,10 @@
       </div>
       <img class="nav__link-icon" src="/assets/img/icons/landing-page/arrow_down.svg">
     </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="{{ level }}">
+    <nav class="md-nav" aria-label="{{ nav_item.title }}" data-md-level="{{ level }}">
       <label class="md-nav__title" for="{{ path }}">
+        <span class="md-nav__icon md-icon">
+        </span>
         {{ nav_item.title }}
       </label>
       <ul class="md-nav__list" data-md-scrollfix>

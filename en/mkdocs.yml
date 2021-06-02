@@ -38,10 +38,12 @@ theme:
     accent: deep-orange
   custom_dir: theme/material
   logo: images/logo.svg
+  icon:
+    repo: fontawesome/brands/gitlab 
   favicon: images/favicon.png
   highlightjs: true
-  feature:
-    tabs: true
+  features:
+    - tabs
   language: 'en'
 
 # Navigation
@@ -841,11 +843,11 @@ extra_javascript:
   - assets/lib/backtotop/js/main.js
 extra:
   social:
-    - type: github
+    - icon: github
       link: https://github.com/wso2
-    - type: twitter
+    - icon: twitter
       link: https://twitter.com/wso2
-    - type: linkedin
+    - icon: linkedin
       link: https://www.linkedin.com/company/wso2
   site_version: new_restructure
 
