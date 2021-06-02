@@ -39,11 +39,14 @@ theme:
   custom_dir: theme/material
   logo: images/logo.svg
   icon:
-    repo: fontawesome/brands/gitlab 
+    repo: fontawesome/brands/github
   favicon: images/favicon.png
   highlightjs: true
   features:
-    - tabs
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.sections
   language: 'en'
 
 # Navigation

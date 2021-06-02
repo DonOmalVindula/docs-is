@@ -1703,3 +1703,10 @@ h3 {
     background-color: #f5f5f5;
 }
 
+.logo-icon {
+    padding: 0px !important;
+    margin-left: 5px !important;
+    height: 48px !important;
+    width: 48px !important;
+}
+
